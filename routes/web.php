@@ -20,4 +20,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/heroes', [DotaHeroController::class, 'index']);
 
+Route::get('/herolists', [DotaHeroController::class, 'index2']);
+Route::delete('/herolists/{id}/delete', [DotaHeroController::class, 'deleteHero']);
 Route::redirect('/', '/heroes');
