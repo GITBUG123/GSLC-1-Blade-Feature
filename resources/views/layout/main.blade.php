@@ -10,6 +10,9 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
     </head>
     <style>
+        body{
+            min-height: 100%;
+        }
         .bgimg{
           background-image: url(https://thegamehaus.com/wp-content/uploads/2019/05/Counter-picking.jpg);
           background-repeat: no-repeat;
@@ -23,6 +26,13 @@
             justify-items: center;
             color: white;
             font-size: 16px;
+        }
+
+        table, th, td{
+            text-align: center;
+            vertical-align: middle; /* to make text center of box */
+            color: white;
+            border: 1.5px solid rgb(255, 255, 255);
         }
     </style>
 
